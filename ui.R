@@ -18,7 +18,8 @@ shinyUI(fluidPage(
                   h4("Use Slider To Change"),
                   h5("number of bins [bars] on the Histogram"),
 #                  helpText("use the Slider to change the number of bins [bars on the Histogram]"),
-                  h6("Thank Your For Visiting My Shiny World!")
+                  h6("Thank Your For Visiting My Shiny World!"),
+                  img(src="DomFernandez.png", height = 400, width = 400)
                 ),
                 
                 # Show a plot of the generated distribution
