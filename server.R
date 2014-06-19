@@ -1,6 +1,3 @@
-###
-# runApp("_myShinyApp", display.mode = "showcase")
-###
 library(shiny)
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -21,4 +18,3 @@ shinyServer(function(input, output) {
          main="Just a regular Histogram")
   })
 })
-
