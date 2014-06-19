@@ -17,18 +17,16 @@ shinyUI(fluidPage(
                   h6(">"),
                   h4("Use Slider To Change"),
                   h5("number of bins [bars] on the Histogram"),
-#                  helpText("use the Slider to change the number of bins [bars on the Histogram]"),
                   h6("Thank Your For Visiting My Shiny World!"),
-                  img(src="DomFernandez.png", height = 400, width = 400)
+                  img(src="DomFernandez.png", height = 100, width = 100),
+                  p(h6("Connect with me on "),
+                    a("< Linked_In >", 
+                      href = "http://www.linkedin.com/profile/view?id=5576436"))
                 ),
                 
                 # Show a plot of the generated distribution
                 mainPanel(
-                  p(h5("Connect with me on "),
-                    a("< Linked_In >", 
-                      href = "http://www.linkedin.com/profile/view?id=5576436")),
                   plotOutput("distPlot")
-                  
                 )
   )
 ))
