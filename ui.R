@@ -33,8 +33,7 @@ shinyUI(fluidPage(
                   plotOutput("distPlot"),
                   sliderInput("bins", "Number of bins:",
                               min = 5, max = 30, value = 10),
-                  h6(">Use Slider To Change"),
-                  h6("number of bins [bars] on the Histogram")
+                  h6("> Use Slider To Change Number Of Bins/Bars On Histogram")
                 )
   )
 ))
